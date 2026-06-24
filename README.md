@@ -133,3 +133,4 @@ Build a backtesting engine
 Optimize thresholds using profit instead of F1
 
 # Author
+Rabiya Farheen MSc Data Science, Technical University of Braunschweig, Germany
