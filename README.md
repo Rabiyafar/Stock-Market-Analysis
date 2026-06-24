@@ -22,7 +22,7 @@ Remove suspicious rows where Volume = 0 and OHLC are identical
 Code
 df = df[df['Volume'] != 0]
 2. Version 1 — Baseline Random Forest
-File: 01_baseline_random_forest.ipynb
+File: stock analysis_initial_model.ipynb
 Goal
 Build a simple baseline model using minimal features.
 Features
@@ -41,7 +41,7 @@ Model predicts “Down” too often
 Why this version matters
 It establishes a baseline and shows that simple features are not enough.
 3. Version 2 — Advanced Feature Engineering + Threshold Tuning
-File: 02_feature_engineering_and_threshold_tuning.ipynb
+File: stock_analysis_advanced_features.ipynb
 Added Features
 Momentum
 Return_1
@@ -78,7 +78,7 @@ Recall for Up ≈ 1.00
 Precision drops (expected)
 Good for trading strategies that prioritize catching Up days
 4. Version 3 — Random Forest + XGBoost Pipeline
-File: 03_random_forest_vs_xgboost.ipynb
+File: random_forest_vs_xgboost.ipynb
 This is the cleanest and most complete version.
 Includes
 Zero‑volume row removal
